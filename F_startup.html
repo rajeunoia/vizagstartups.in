@@ -5,9 +5,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vizag Startups Community">
-    <meta name="author" content="Vizag">
-    <title>Startup Registration - Vizag Startups Community</title>
+    <meta name="description" content="Responsive Startup Landing Template">
+    <meta name="author" content="Murtaxa">
+    <title>Napier - Responsive Startup Landing Template</title>
 	<!-- CSS Files -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
@@ -37,31 +37,28 @@
 				</button>
 				<!-- Logo -->
 				<a href='#' class='navbar-brand' >
-					<img class='logo' src='img/logo.png' alt="logo">
+					<img class='logo' src='img/logoli.png' alt="logo">
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="nav-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="index.html#pagehero">Vizag Ecosystem</a>
+						<a href="index.html#about">Vizag Ecosystem</a>
 					</li>
 					<li>
-						<a href="index.html#about">What we do?</a>
+						<a href="index.html#features">Startups</a>
 					</li>
 					<li>
-						<a href="index.html#startups">Startups</a>
+						<a href="index.html#pricing">Enablers</a>
 					</li>
 					<li>
-						<a href="index.html#enablers">Enablers</a>
-					</li>
-					<li>
-						<a href="index.html#blog">Events</a>
+						<a href="index.html#events" >Events</a>
 					</li>
 					<li>
 						<a href="index.html#registration">Registration</a>
 					</li>
 					<li>
-						<a href="index.html#contact">Contact</a>
+						<a href="index.html#contact" >Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -73,7 +70,7 @@
 		<div class="container">
 			<div class="section-header">
 				<h2>Startup Registration Form</h2>
-				<p>Lorem ipsum dolor sit amet</p>
+			
 			</div>
 			<div class="row">
 
@@ -94,7 +91,7 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="Registered Name" class="form-control" required >
+                                <input id = "stname" type="text" placeholder="Registered Name" class="form-control" required >
                             </div>
                         </div>
 
@@ -109,7 +106,7 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="Founder Name" class="form-control" required >
+                                <input id = "fname" type="text" placeholder="Founder Name" class="form-control" required >
                             </div>
                         </div>
 
@@ -124,7 +121,7 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="XX" class="form-control" required >
+                                <input id = "size" type="number" placeholder="XX" class="form-control" required >
                             </div>
                         </div>
 
@@ -138,7 +135,7 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="Email" class="form-control" required >
+                                <input id = "stemail" type="email" placeholder="Email" class="form-control" required >
                             </div>
                         </div>
 
@@ -152,7 +149,21 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="Website" class="form-control" required >
+                                <input id="web" type="url" placeholder="Website" class="form-control" required >
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Phone</h4>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <!--<label class="control-label">Startup Registred Name</label>-->
+                                <input id = "stmob" type="tel" placeholder="Phone Number" class="form-control" required >
                             </div>
                         </div>
 
@@ -167,11 +178,111 @@
 
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
-                                <textarea class="form-control" rows="4" required ></textarea>
+                                <textarea id = "epitch" class="form-control" rows="4" required ></textarea>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Logo</h4>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <!--<label class="control-label">Startup Registred Name</label>-->
+                                
+                                <input id = "logo" type="text" placeholder="Enter URL" class="form-control" required >
+
+                                <!--<input id="logo" type="file"  class="btn btn-default" accept="image/*">--> 
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Startup description</h4>
+								
                             </div>
                         </div>
 
 
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <textarea  id ="stdesc" class="form-control" rows="2" required ></textarea>
+                            </div>
+                        </div>
+                        
+                         <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Category</h4>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <!--<label class="control-label">Startup Registred Name</label>-->
+                                
+                               <select id = "stcat" class="form-control" data-style="btn-primary">
+                                   <option >Advertising</option>
+                                   <option>Agri Tech</option>
+                                   <option>AI/Machine Learning</option>
+                                   <option>AR/VR</option>
+                                   <option>Automobiles</option>
+                                   <option>CRM</option>
+                                   <option>Cloud</option>
+                                   <option>Data Analytics</option>
+                                   <option>Education & Training</option>
+                                   <option>Energy</option>
+                                   <option>E-commerce</option>
+                                   <option>Entertainment</option>
+                                   <option>Fashion</option>
+                                   <option>Food</option>
+                                   <option>FinTech</option>
+                                   <option>Gov Tech</option>
+                                   <option>Health Care</option>
+                                   <option>Hardware</option>
+                                   <option>IT/ITES</option>
+                                   <option>IoT</option>
+                                   <option>Legal</option>
+                                   <option>Marketing</option>
+                                   <option>Productivity</option>
+                                   <option>Research</option>
+                                   <option>Saas</option>
+                                   <option>Security</option>
+                                   <option>Social Enterprise</option>
+                                   <option>Social Networking</option>
+                                   <option>Software Development</option>
+                                   <option>Tele Communications</option>
+                                   <option>Tourism</option>
+                                   <option>Transport</option>
+                                   <option>Travel</option>
+                                   <option>Web</option>
+                                   <option>Wearables</option>
+                                   <option>Other</option>
+                                   
+                                   
+                                   </select>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Founded on</h4>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <!--<label class="control-label">Startup Registred Name</label>-->
+                                <input id = "date" type="date" placeholder="MM/DD/YYYY" class="form-control" required >
+                            </div>
+                        </div>
+                        
 
 
                         <div class="col-md-3">
@@ -183,7 +294,7 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="" class="form-control" required >
+                                <input id = "fb" type="url" placeholder="" class="form-control" required >
                             </div>
                         </div>
 
@@ -198,7 +309,7 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="" class="form-control" required >
+                                <input id = "twitter" type="url" placeholder="" class="form-control" required >
                             </div>
                         </div>
 
@@ -213,9 +324,25 @@
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="" class="form-control" required >
+                                <input id = "linkedin" type="url" placeholder="" class="form-control" required >
                             </div>
                         </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Any other Startup details </h4>
+								
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <textarea id = "extra" class="form-control" rows="2" required ></textarea>
+                            </div>
+                        </div>
+
 
 
 
@@ -224,7 +351,7 @@
                         	<div class="note">
 	                        	<p>'By registering, you agree our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></p>
 	                        </div>
-	                        <button  type="submit" class="ripple text-right">Register</button>
+	                        <button id = "register" type="submit" class="ripple text-right">Register</button>
                         </div>
                     </div>
 				</div>
@@ -269,26 +396,26 @@
 				<!-- footer bout -->
 				<div class="col-md-3 f-about">
 					<a href="#">
-						<img src="img/logo.png" class="responsive-img" alt="Vizag Startups logo">
+						<img src="img/logo.png" class="responsive-img" alt="Company logo">
 					</a>
 					<hr>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsa repudiandae et </p>
 				</div>
 				<!-- Link -->
 				<div class="col-md-3 l-link">
-					<h4>Important Links</h4>
+					<h4>Link</h4>
 					<ul>
 						<li>
-							<a href="#startups">Startups</a>
+							<a href="#">Features</a>
 						</li>
 						<li>
-							<a href="#enablers">Enablers</a>
+							<a href="#">Support</a>
 						</li>
 						<li>
-							<a href="#blog">Events</a>
+							<a href="#">Help</a>
 						</li>
 						<li>
-							<a href="#registration">Registration</a>
+							<a href="#">Plan and Pricig</a>
 						</li>
 					</ul>
 				</div>
@@ -297,15 +424,27 @@
 					<h4>Follow Us</h4>
 					<ul>
 						<li>
-							<a href="http://fb.com/vizagstartups.in" target="_blank">
+							<a href="#">
 								<i class="fa fa-facebook"></i>
 								Facebook
 							</a>
 						</li>
 						<li>
-							<a href="https://twitter.com/vizagstartups" target="_blank">
+							<a href="#">
 								<i class="fa fa-twitter"></i>
 								Twitter
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-behance"></i>
+								Behance
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-github"></i>
+								GitHub
 							</a>
 						</li>
 					</ul>
@@ -313,7 +452,7 @@
 				<!-- Newsletter -->
 				<div class="col-md-3 sub">
 					<h4>Newsletter</h4>
-					<p>Our newsletter will reach your inbox only once in a month!<br> With only important updates.</p>
+					<p>Lorem ipsum dolor sit ame</p>
 					<!-- Newsletter Form Input -->
 					<form class="newsletter-form">
 						<div class="input-group">
@@ -325,7 +464,7 @@
 							</span>
 						</div>
 					</form>
-					<p class="no-spam">* We will never spam! </p>
+					<p class="no-spam">* Please trust us, we will never send you spam </p>
 				</div>
 			</div>
 			<hr>
@@ -335,12 +474,19 @@
 	<!-- Ended Footer Section -->
 	<!-- fixed icons start -->
     <div class="fixed-icons">
-        <a href="http://fb.com/vizagstartups.in" target="_blank"><i class="fa fa-facebook fixed facebook"></i></a>
-        <a href="https://twitter.com/vizagstartups"  target="_blank"><i class="fa fa-twitter fixed twitter"></i></a>
+        <a href="http://fb.com/vizagstartups"><i class="fa fa-facebook fixed facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter fixed twitter"></i></a>
+        <a href="#"><i class="fa fa-google-plus fixed google-plus"></i></a>
+        <a href="#"><i class="fa fa-linkedin fixed linkedin"></i></a>
     </div>
     <!-- fixed icons end -->
 	<!-- Scripts -->
 	<script src='js/jquery.min.js' ></script>
+    <script src='https://www.gstatic.com/firebasejs/4.2.0/firebase.js'></script>
+  <!--  <script src='https://www.gstatc.com/firebasejs/4.2.0/firebase-database.js'></script> -->
+    <script src='js/firebase-init.js'></script>
+    <script src='js/save-logo.js'></script>
+    <script src='js/startup.js'></script>
     <script src='js/bootstrap.min.js' ></script>
 	<script src='js/owl.carousel.min.js' ></script>
 	<script src='js/smooth-scroll.min.js' ></script>

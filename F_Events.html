@@ -69,8 +69,8 @@
 	<section id="about">
 		<div class="container">
 			<div class="section-header">
-				<h2>EcoSystem Enablers Registration Form</h2>
-				<p>Welcome to Vizag Startups! We welcome your interest and partnership!</p>
+				<h2>Event Publishing form</h2>
+				<p></p>
 			</div>
 			<div class="row">
 
@@ -82,134 +82,188 @@
 					<h2></h2>
 					<p></p>
 					<div class="row">
+                        
+                        
                         <div class="col-md-3">
                             <div class="form-group label-floating contact-form">
-								<h4>Name</h4>
+								<h4>Email address</h4>
 								
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="text" placeholder="Name" class="form-control" required >
+                                <input id = "event-holder-adrs" type="email" placeholder="Email" class="form-control" required >
                             </div>
                         </div>
                         
                         
                         
-                         <div class="col-md-3">
+                        
+                        
+                        
+                        <div class="col-md-3">
                             <div class="form-group label-floating contact-form">
-								<h4>Phone</h4>
+								<h4>Event Name</h4>
 								
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="tel" placeholder="Phone Number" class="form-control" required >
+                                <input id="event-name" type="text" placeholder="Event name" class="form-control" required >
                             </div>
                         </div>
                         
-
+                        
+                    
 
                         <div class="col-md-3">
                             <div class="form-group label-floating contact-form">
-								<h4>Name of the Organization</h4>
+								<h4>Event Type</h4>
 								
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
                                 <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="text" placeholder="Organization Name" class="form-control" required >
+                                <input id = "event-type" type="text" placeholder="Event Type" class="form-control" required >
                             </div>
                         </div>
 
 
-                        <div class="col-md-3">
-                            <div class="form-group label-floating contact-form">
-								<h4>About Organization</h4>
-								
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-9">
-                            <div class="form-group label-floating contact-form">
-                                <textarea placeholder="Description about Organization"class="form-control" rows="3" required ></textarea>
-                            </div>
-                        </div>
                         
-                        
-                        
-                        <div class="col-md-3">
+                    <!--    <div class="col-md-3">
                             <div class="form-group label-floating contact-form">
-								<h4>Activities</h4>
-								
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-9">
-                            <div class="form-group label-floating contact-form">
-                                <textarea placeholder="Activities your organization does,that build the startup eco-system in vizag" class="form-control" rows="2" required ></textarea>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="col-md-3">
-                            <div class="form-group label-floating contact-form">
-								<h4>Email</h4>
+								<h4>Event photo</h4>
 								
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="form-group label-floating contact-form">
-                                <!--<label class="control-label">Startup Registred Name</label>-->
-                                <input type="email" placeholder="Email" class="form-control" required >
-                            </div>
-                        </div>
-                        
-                        
-                        
-                         <div class="col-md-3">
-                            <div class="form-group label-floating contact-form">
-								<h4>Address</h4>
-								
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-9">
-                            <div class="form-group label-floating contact-form">
-                                <textarea placeholder="" class="form-control" rows="4" required ></textarea>
-                            </div>
-                        </div>
-                        
-                        
-                         <div class="col-md-3">
-                            <div class="form-group label-floating contact-form">
-								<h4>Type of Enabler</h4>
-								
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="form-group label-floating contact-form">
-                                <!--<label class="control-label">Startup Registred Name</label>-->
-                                
-                               <select class="form-control" data-style="btn-primary" >
-                                   
-                                  <option>Incubator/Accelerator</option>
-                                  <option selected>Investors</option>
-                                  <option>Mentors</option>
-                                  <option>CoWorking Space</option>
-                                  <option>Services/Resources (for Startups)</option>
-                                  <option>Startup Events</option>
-                                   
-                                   </select>
+                                <!--<label class="control-label">Startup Registred Name</label>
+                                <input id="event-pic" type="file"  class="btn btn-default" > 
                                 
                             </div>
+                        </div> -->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Location</h4>
+								
+                            </div>
                         </div>
+
+
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <textarea id = "event-location" placeholder="Google Maps URL" class="form-control" rows="1" required ></textarea>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                          <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Date</h4>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <!--<label class="control-label">Startup Registred Name</label>-->
+                                <input id = "event-date" type="date" placeholder="MM/DD/YYYY" class="form-control" required >
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                          <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Start time</h4>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <!--<label class="control-label">Startup Registred Name</label>-->
+                                <input id = "event-start" type="time" placeholder="12:30 AM/PM" class="form-control" required >
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>End time</h4>
+								
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <!--<label class="control-label">Startup Registred Name</label>-->
+                                <input id="event-end" type="time" placeholder="09:30 AM/PM" class="form-control" required >
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                         <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Description</h4>
+								
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <textarea id = "event-desc" placeholder="" class="form-control" rows="3" required ></textarea>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Ticket URL</h4>
+								
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <textarea id = "event-ticket" type = "url" placeholder="" class="form-control" rows="1" required ></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                            <div class="form-group label-floating contact-form">
+								<h4>Contact </h4>
+								
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-9">
+                            <div class="form-group label-floating contact-form">
+                                <textarea id = "event-contact" placeholder="" class="form-control" rows="3" required ></textarea>
+                            </div>
+                        </div>
+                        
+                        
                         
                         
                         
@@ -219,7 +273,7 @@
 
                         <div class="col-md-12">
                         	
-	                        <button  type="submit" class="ripple text-right">Submit</button>
+	                        <button id ="event-submit" type="submit" class="ripple text-right">Submit</button>
                         </div>
                     </div>
 				</div>
@@ -241,7 +295,7 @@
                 	<img src="img/graphic-design.png" alt="">
                 </div>
                 <div class="col-md-6 sub-right">
-                    <h3 class="title">Subscribe to our newsletter. Filled with info you can use!</h3>
+                    <h3 class="title">Subscribte to our news letter</h3>
                     <form class="subscribe-form">
 						<div class="input-group">
 							<input type="email" class="form-control" placeholder="Email Address" required id="n-email">
@@ -264,10 +318,10 @@
 				<!-- footer bout -->
 				<div class="col-md-3 f-about">
 					<a href="#">
-						<img src="img/logodr.png" class="responsive-img" alt="Company logo">
+						<img src="img/logo.png" class="responsive-img" alt="Company logo">
 					</a>
 					<hr>
-					<p>Vizag Startups is focused on building the startup ecosystem in and around Vizag.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsa repudiandae et </p>
 				</div>
 				<!-- Link -->
 				<div class="col-md-3 l-link">
@@ -283,7 +337,7 @@
 							<a href="#">Help</a>
 						</li>
 						<li>
-							<a href="#">Plan and Pricing</a>
+							<a href="#">Plan and Pricig</a>
 						</li>
 					</ul>
 				</div>
@@ -317,12 +371,11 @@
 						</li>
 					</ul>
 				</div>
-				<!--
-				<!-- Newsletter --
+				<!-- Newsletter -->
 				<div class="col-md-3 sub">
 					<h4>Newsletter</h4>
 					<p>Lorem ipsum dolor sit ame</p>
-					<!-- Newsletter Form Input 
+					<!-- Newsletter Form Input -->
 					<form class="newsletter-form">
 						<div class="input-group">
 							<input type="email" class="form-control" placeholder="Email Address" required id="s-email">
@@ -335,7 +388,6 @@
 					</form>
 					<p class="no-spam">* Please trust us, we will never send you spam </p>
 				</div>
-			-->
 			</div>
 			<hr>
 			<p class="copyright"> Built with <i class="fa fa-heart"></i> by Vizag Startups 2017</p>
@@ -352,6 +404,10 @@
     <!-- fixed icons end -->
 	<!-- Scripts -->
 	<script src='js/jquery.min.js' ></script>
+    <script src='https://www.gstatic.com/firebasejs/4.2.0/firebase.js'></script>
+   <!-- <script src='https://www.gstatc.com/firebasejs/4.2.0/firebase-database.js'></script> -->
+    <script src='js/firebase-init.js'></script>
+    <script src='js/event.js'></script>
     <script src='js/bootstrap.min.js' ></script>
 	<script src='js/owl.carousel.min.js' ></script>
 	<script src='js/smooth-scroll.min.js' ></script>

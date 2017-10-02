@@ -110,7 +110,7 @@ function subject(val){
 	<section id="about">
 		<div class="container">
 			<div class="section-header">
-				<h2 style="color:blue">We are here to help!</h2>
+				<h2 style="color:#353ea2">We are here to help!</h2>
 				<p>
                  We build a vibrant, robust ecosystem in this thriving academic and industrial port city so that you can build on your idea and startup. Let's get going!
                 </p>
@@ -167,7 +167,7 @@ function subject(val){
 	<section id="startups">
 		<div class="container">
 			<div class="section-header">
-				<h2 style="color:blue">Startups</h2>
+				<h2 style="color:#353ea2">Startups</h2>
 			</div>
 			<div class="row">
     			<div class="col-md-12">
@@ -318,7 +318,7 @@ function subject(val){
 	<section id="enablers">
 		<div class="container">
 			<div class="section-header">
-				<h2 style="color:blue">Enablers</h2>
+				<h2 style="color:#353ea2">Enablers</h2>
 				<p>Our ecosystem has numerous skilled and dedicated enablers - incubators, accelerators, VCs, government agencies, and many more.</p>
 			</div>
 			<div class="row">
@@ -436,7 +436,7 @@ function subject(val){
     <section class="blog" id="blog">
         <div class="container">
             <div class="section-header">
-				<h2 style="color:blue">Events</h2>
+				<h2 style="color:#353ea2">Events</h2>
 				<p>Stay current with all the startup happenings in and around Vizag.</p>
 				<p>Stay tuned for more information on events. Register on our website to be notified by email.</p>
 			</div>
@@ -571,7 +571,7 @@ function subject(val){
 	<section id="registration">
 		<div class="container">
 			<div class="section-header">
-				<h2 style="color:blue">Register Now!<br></h2><br><br><br>
+				<h2 style="color:#353ea2">Register Now!<br></h2><br><br><br>
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
@@ -588,7 +588,7 @@ function subject(val){
                                 <li><i class="fa fa-times"> </i> Customer Support</li>
                             </ul>
                             <h1 class="card-title"><small>$</small>29<small>/mo</small></h1>-->
-                            <button class="ripple" type="button" onclick="location.href='eventRegistration.html'">Get Started</button>
+                            <button class="ripple" type="button" onclick="location.href='F_Events.html'">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -607,7 +607,7 @@ function subject(val){
                                 <li><i class="fa fa-times"> </i> Customer Support</li>
                             </ul>
                             <h1 class="card-title"><small>$</small>99<small>/mo</small></h1>-->
-                            <button class="ripple" type="button" onclick="location.href='startupRegistration.html'">Get Started</button>
+                            <button class="ripple" type="button" onclick="location.href='F_startup.html'">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -625,7 +625,7 @@ function subject(val){
                                 <li><i class="fa fa-times"> </i> Customer Support</li>
                             </ul>
                             <h1 class="card-title"><small>$</small>299<small>/mo</small></h1>-->
-                            <button class="ripple" type="button" onclick="location.href='enablerRegistration.html'">Get Started</button>
+                            <button class="ripple" type="button" onclick="location.href='F_enabler.html'">Get Started</button>    <!-- enablerRegistration.html-->
                         </div>
                     </div>
                 </div>
@@ -679,7 +679,7 @@ function subject(val){
                         <div class="col-md-6">
                              <div class="form-group label-floating contact-form">
                                 <label class="control-label">Subject*</label>
-                                 <select class="form-control" data-style="btn-primary" onchange='subject(this.value);' required>
+                                 <select class="form-control" id="c-sub" data-style="btn-primary" onchange='subject(this.value);' required>
                                    
                                   <option>Request for a venue</option>
 								  <option>Idea Validation</option>
@@ -694,27 +694,27 @@ function subject(val){
                             </div>
                             <div class="form-group label-floating contact-form">
                                 <label class="control-label">Your Name*</label>
-                                <input type="email" class="form-control" required >
+                                <input type="text" id="c-name" class="form-control" required >
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group label-floating contact-form">
                                 <label class="control-label">Mobile*</label>
-                                <input type="email" class="form-control" required >
+                                <input type="tel" id="c-mob" class="form-control" required >
                             </div>
                             <div class="form-group label-floating contact-form">
                                 <label class="control-label">Email*</label>
-                                <input type="email" class="form-control" required >
+                                <input type="email" id="c-email" class="form-control" required >
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group label-floating contact-form">
                                 <label class="control-label">Message*</label>
-                                <textarea class="form-control" rows="5" required ></textarea>
+                                <textarea id="c-msg" class="form-control" rows="5" required ></textarea>
                             </div>
                         </div>
                         <div class="col-md-12">
-	                        <button  type="submit" class="ripple text-right">Send your message</button>
+	                        <button  type="submit" id="contact-submit" class="ripple text-right">Send your message</button>
                         </div>
                     </div>
 				</div>
@@ -739,13 +739,13 @@ function subject(val){
 					<h4>Important Links</h4>
 					<ul>
 						<li>
-							<a href="#startups">Startups</a>
+							<a href="startup_listing_page.html">Startups</a>
 						</li>
 						<li>
-							<a href="#enablers">Enablers</a>
+							<a href="enablers_listing_page.html">Enablers</a>
 						</li>
 						<li>
-							<a href="#blog">Events</a>
+							<a href="events_listing_page.html">Events</a>
 						</li>
 						<li>
 							<a href="#registration">Registration</a>
@@ -764,7 +764,7 @@ function subject(val){
 						</li>
 						<li>
 							<a href="https://twitter.com/vizagstartups" target="_blank">
-								<i class="fa fa-twitter"></i>
+								<i class="fa fa-twitter"></i> 
 								Twitter
 							</a>
 						</li>
@@ -809,6 +809,7 @@ function subject(val){
 	<script src='js/smooth-scroll.min.js' ></script>
 	<script src='js/typed.min.js' ></script>
 	<script src='js/script.js' ></script>
+    <script src='js/contact.js' ></script>
     <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
     <script>
   // Initialize Firebase
