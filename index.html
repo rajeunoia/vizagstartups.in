@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Vizag Startups -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vizag Startups Community">
+    <meta name="author" content="Vizag">
+    <title>Vizag Startups Community</title>
+    <script type="text/javascript">
+function subject(val){
+ var element=document.getElementById('sub');
+ if(val=='others')
+   element.style.display='block';
+ else  
+   element.style.display='none';
+}
+
+</script> 
+	<!-- CSS Files -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body class="scrolled">
+	<!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- End Preloader -->
+	<!-- Navbar -->
+	<nav class='navbar navbar-fixed-top' >
+		<div class='container' >
+			<div class='navbar-header' >
+				<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#nav-collapse' aria-expanded='false'>
+					<span class='sr-only' >Toggle navigation</span>
+					<span class='icon-bar' ></span>
+					<span class='icon-bar' ></span>
+					<span class='icon-bar' ></span>
+				</button>
+				<!-- Logo -->
+				<a href='#' class='navbar-brand' >
+					<img class='logo' src='img/logoli.png' alt="VIZAG STARTUPS LOGO">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="nav-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#pagehero" data-scroll>Vizag Ecosystem</a>
+					</li>
+					<li>
+						<a href="#about" data-scroll>How We Help</a>
+					</li>
+					<li>
+						<a href="#startups" data-scroll>Startups</a>
+					</li>
+					<li>
+						<a href="#enablers" data-scroll>Enablers</a>
+					</li>
+					<li>
+						<a href="#blog" data-scroll>Events</a>
+					</li>
+					<li>
+						<a href="#registration" data-scroll>Registration</a>
+					</li>
+					<li>
+						<a href="#contact" data-scroll>Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar endeed -->
+	<!-- pagehero Section -->
+	<section id="pagehero">
+		<div class="container">
+			<div class="row">
+				<!-- pagehero text -->
+				<div class="col-md-6">
+					<div class="pagehero-text">
+						<h2>Welcome to Vizag Startups</h2>
+						<span style = "color:#99ddff"class="typing"></span>
+						<!-- <p>Connect-Support-Grow!</p> -->
+						<p>Captain your very own startup! Give wind to your dreams!
+					       Steer the startup waters with Vizag Startups by your side!</p>
+						<!-- <button type="button" class="btn btn-success"><i class="fa fa-bolt"></i> Sign Up</button> -->
+						<button class="ripple" type="button" onclick="location.href='startupRegistration.html'"><i class="fa fa-paper-plane-o"></i> Sail as a Startup!</button>
+						<button class="ripple" type="button" onclick="location.href='enablerRegistration.html'"><i class="fa fa-bolt"></i> Sail as an Enabler!</button>
+
+					</div>
+				</div>
+				<!-- pagehero Img -->
+				<div class="col-md-6">
+					<div class="pagehero-img">
+						<img src="img/header-img.png" class="responsive-img" alt="Header Image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Ended pagehero section -->
+	<!-- About section -->
+	<section id="about">
+		<div class="container">
+			<div class="section-header">
+				<h2 style="color:blue">We are here to help!</h2>
+				<p>
+                 We build a vibrant, robust ecosystem in this thriving academic and industrial port city so that you can build on your idea and startup. Let's get going!
+                </p>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object" src="img/responsive.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">1. Connect</h4>
+					    <p>Connect with like minded people! Our curated ecosystem includes dreamers, startups, co-working spaces, mentors, investors, students, accelerators, incubators, and government officials.</p>
+					  	<!-- <a href="#">Read more...</a> -->
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object" src="img/brainstorming.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">2. Startup!</h4>
+					    <p>You have dreams and ambitions! You have an idea that will benefit people! Get off the bench, put on your gear, and get to bat now! 
+							We are experienced and enthusiastic fellow dreamers eager to help aspiring startup ninjas to brainstorm, validate, and launch ideas.</p>
+					  	<!-- <a href="#">Read more...</a> -->
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object" src="img/line-graphic.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">3. Grow</h4>
+					    <p>Sartups come with a googol number of challenges! You know it, we know it. Our ecosystem is here to help you scale and pivot your way to success!</p>
+					  	<!-- <a href="#">Read more...</a> -->
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Ended About Section -->
+	<!-- startups section -->
+	<section id="startups">
+		<div class="container">
+			<div class="section-header">
+				<h2 style="color:blue">Startups</h2>
+			</div>
+			<div class="row">
+    			<div class="col-md-12">
+			    <!-- Start of tabs -->
+			        <div class="card">
+			        	<ul class="nav nav-tabs " role="tablist">
+			          		<li role="presentation" class="active">
+			          			<a href="#idea" aria-controls="home" role="tab" data-toggle="tab">Learn</a>
+			          		</li>
+			          		<li role="presentation">
+			          			<a href="#poc" class="text-cneter" aria-controls="profile" role="tab" data-toggle="tab">Build</a>
+			          		</li>
+			          		<li role="presentation">
+			          			<a href="#revenue" aria-controls="messages" role="tab" data-toggle="tab">Scale</a>
+			          		</li>
+			        	</ul>
+				        <!-- Tab panes -->
+				        <div class="tab-content">
+				          	<div role="tabpanel" class="tab-pane active" id="idea">
+				          		<div class="col-md-7 features-pictures pull-right">
+						        	<img class="img img-responsive" src="img/web-design.png" alt="">
+						        </div>
+				            	<div class="col-md-5 tab-detail">
+				              		<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/desktop.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Community Learning</h4>
+							    			<p>Knowledge evolves quickly. Stay abreast. Let's learn together! We meet online and offline to do courses, read books and much more. So take that book you always wanted to finish, read it, and discuss with peers.</p>
+							  			</div>
+									</div>
+									<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/diamond.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Discussion Forums</h4>
+							    			<p>We have thought provoking threads running for various domains and topics. From markets to payrolls to local regulations, everything related to startups is here.</p>
+							  			</div>
+									</div>
+									<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/trophy.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Mentors</h4>
+							    			<p>Need another perspective? An expert opinion? From early stage startups to those who are busy scaling, we have an expanding network of mentors willing to help you get to the next level.</p>
+							  			</div>
+									</div>
+						        </div>
+						    </div>
+					        <div role="tabpanel" class="tab-pane" id="poc">
+					        	<div class="col-md-7 features-pictures pull-right">
+					            	<img class="img img-responsive" src="img/web-dev.png" alt="">
+					          	</div>
+					          	<div class="col-md-5 tab-detail">
+					            	<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/coding.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">  Brainstorm &amp; Ideate</h4>
+							    			<p>Lot's of startups are born out of casual discussions and brainstorming sessions. Join our hyperactive Whatsapp groups suited to your interests and start brainstorming.</p>
+							  			</div>
+									</div>
+									<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/settings.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Prototype</h4>
+							    			<p>Done with ideation? Get out there and build a prototype. Use our diverse and extensive resources to get your MVP out asap!</p>
+							  			</div>
+									</div>
+									<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/laptop.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Launch</h4>
+							    			<p>You won't know if your ship will sink or float until you launch. Start with a simple boat. Launch and launch fast! Launch at our meetups, get your early adopters, and valuable feedback.</p>
+							  			</div>
+									</div>
+					          	</div>
+					        </div>
+					        <div role="tabpanel" class="tab-pane" id="revenue">
+					          	<div class="col-md-7 features-pictures pull-right">
+					            	<img class="img img-responsive" src="img/graphic-design.png" alt="">
+					          	</div>
+					          	<div class="col-md-5 tab-detail">
+					            	<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/desktop-app.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Incubators </h4>
+							    			<p>The starting stage is the most crucial for every startup. Collaborate with incubators who understand local entrepreneurs.</p>
+							  			</div>
+									</div>
+									<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/mac.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Accelerators</h4>
+							    			<p>Done with idea validation? Scale and scale quick! Collaborate with local accelerators who know your pain points and can fuel your growth.</p>
+							  			</div>
+									</div>
+									<div class="media">
+					  					<div class="media-left">
+					   		 				<a href="#">
+					      						<img class="media-object" src="img/line-graphic.png" alt="...">
+					    					</a>
+					  					</div>
+						  				<div class="media-body">
+							    			<h4 class="media-heading">Investor Networks</h4>
+							    			<p>Ready to sail but lack the cash? Pitch now! We proudly present a network of angel investors and VCs who are ready to fund viable startups.</p>
+							  			</div>
+									</div>
+					          	</div>
+					        </div>
+					    </div>
+					</div>
+					<!-- end of tabs -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Ended startups section -->
+	<!-- enablers Section -->
+	<section id="enablers">
+		<div class="container">
+			<div class="section-header">
+				<h2 style="color:blue">Enablers</h2>
+				<p>Our ecosystem has numerous skilled and dedicated enablers - incubators, accelerators, VCs, government agencies, and many more.</p>
+			</div>
+			<div class="row">
+				<!-- Enabler -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="http://www.theitaap.org/images/logos/iTAAP_LOGO.png" alt="">
+						<h4><a href="http://www.theitaap.org/pages/home.html">iTAAP</a></h4>
+						<p>iTAAP is the industry association for the IT, BPM and Electronics sectors in Andhra Pradesh.</p>
+						<!--<div class="social">
+	                        <a href="#social"><i class="fa fa-facebook"></i></a>
+	                        <a href="#social"><i class="fa fa-twitter"></i></a>
+	                        <a href="#social"><i class="fa fa-linkedin"></i></a>
+	                    </div> -->
+					</div>
+				</div>
+				<!-- Enabler -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="" alt="">
+						<h4><a href="https://www.facebook.com/groups/vizagstartups/">Vizag Startups</a></h4>
+						<p>A high energy community of 12000+ members and 200+ founders. Built by startups for startups!</p>
+						<div class="social">
+	                        <a href="https://www.facebook.com/groups/vizagstartups/"><i class="fa fa-facebook"></i></a>
+	                        <a href="https://twitter.com/vizagstartups"><i class="fa fa-twitter"></i></a>
+	                    <!--    <a href="#social"><i class="fa fa-linkedin"></i></a> -->
+	                    </div> 
+					</div>
+				</div>
+				<!-- Enabler -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="http://www.apinnovationsociety.com/images/logo.png" alt="">
+						<h4><a href="http://www.apinnovationsociety.com/">AP Innovation Society</a></h4>
+						<p>The Society aims to create a world class start-up ecosystem in AP by fostering entrepreneurship and a culture of innovation.</p>
+						<!--<div class="social">
+	                        <a href="#social"><i class="fa fa-facebook"></i></a>
+	                        <a href="#social"><i class="fa fa-twitter"></i></a>
+	                        <a href="#social"><i class="fa fa-linkedin"></i></a>
+	                    </div> -->
+					</div>
+				</div>
+				<!-- Enabler  -->
+				<!-- Enabler -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="http://10000startups.com/wp-content/themes/nasscom/images/logo.png" alt="">
+						<h4><a href="http://10000startups.com/">NASSCOM</a></h4>
+						<p>10,000 STARTUPS is the largest technology startup program in India supporting tech startups from ideation to growth.</p>
+						<!-- <div class="social">
+	                        <a href="#social"><i class="fa fa-facebook"></i></a>
+	                        <a href="#social"><i class="fa fa-twitter"></i></a>
+	                        <a href="#social"><i class="fa fa-linkedin"></i></a>
+	                    </div> -->
+					</div>
+				</div>                
+				<!-- Enabler -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="http://www.govincapital.com/images/Logo.png" alt="">
+						<h4><a href="http://www.govincapital.com/">Govin Capital</a></h4>
+						<p>Accelerates startups from ideation to growth via novel mentorship model that creates new market opportunities and mitigates startup funding risk.</p>
+						<!-- <div class="social">
+	                        <a href="#social"><i class="fa fa-facebook"></i></a>
+	                        <a href="#social"><i class="fa fa-twitter"></i></a>
+	                        <a href="#social"><i class="fa fa-linkedin"></i></a>
+	                    </div> -->
+					</div>
+				</div>
+				<!-- Enabler -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="http://hubilo-o4mlunccwnbtnhr.stackpathdns.com/event/logo/thumb/14100_1475118756.png" alt="">
+						<h4><a href="http://www.startapfest.com/">StartAP Fest</a></h4>
+						<p>The fest is run by an awesome team of entrepreneurs, freelancers, and volunteers and is the largest conference of, by, and for Andhrapreneurs.</p>
+						<!-- <div class="social">
+	                        <a href="#social"><i class="fa fa-facebook"></i></a>
+	                        <a href="#social"><i class="fa fa-twitter"></i></a>
+	                        <a href="#social"><i class="fa fa-linkedin"></i></a>
+	                    </div> -->
+					</div>
+				</div>
+				<!-- Enabler -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="http://apeita.in/wp-content/uploads/2016/12/apeita-logo.png" alt="">
+						<h4><a href="http://www.apeita.in/">APEITA</a></h4>
+						<p>HQ'd in Vizag and promotes electronics and IT industries in AP.</p>
+						<!-- <div class="social">
+	                        <a href="#social"><i class="fa fa-facebook"></i></a>
+	                        <a href="#social"><i class="fa fa-twitter"></i></a>
+	                        <a href="#social"><i class="fa fa-linkedin"></i></a>
+	                    </div> -->
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<img src="http://www.fintechvalleyvizag.com/images/logo.png" alt="">
+						<h4><a href="http://www.fintechvalleyvizag.com/">FinTech Valley</a></h4>
+						<p>Focuses on converging finance and technology to create large avenues of growth through industry-enablers, world-class infrastructure, entrepreneurship and innovation.</p>
+						<!-- <div class="social">
+	                        <a href="#social"><i class="fa fa-facebook"></i></a>
+	                        <a href="#social"><i class="fa fa-twitter"></i></a>
+	                        <a href="#social"><i class="fa fa-linkedin"></i></a>
+	                    </div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Ended enablers Section -->
+    
+    
+	<!-- Events Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+				<h2 style="color:blue">Events</h2>
+				<p>Stay current with all the startup happenings in and around Vizag.</p>
+				<p>Stay tuned for more information on events. Register on our website to be notified by email.</p>
+			</div>
+			<!-- vizag startup guys: enable and edit section below when you have events to add -->
+			<!--
+			<div class="owl-carousel" id="blog-carousel">
+                <div class="item">
+                    <div class="card card-blog">
+                        <div class="card-image">
+                            <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">
+                                <img class="img img-raised img-responsive" src="img/blog1.jpg" alt="img" />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h6 class="category text-info">Technology</h6>
+                            <p><i class="fa fa-clock-o"></i> 27 September 2016</p>
+                            <h4 class="card-title">
+                            	<a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">Apple's latest iPhones: USB-C ya later, for now</a>
+                            </h4>
+                            <p class="card-description">
+                                A few hours before the Apple event, I made a bet with a coworker: I think this new iPhone is going.<a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html"> Read More </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card-blog">
+                        <div class="card-image">
+                            <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">
+                                <img class="img img-raised img-responsive" src="img/blog2.jpg" alt="img" />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h6 class="category text-success">
+                                    Startups
+                            </h6>
+                            <p><i class="fa fa-clock-o"></i> 20 September 2016</p>
+                            <h4 class="card-title">
+                                <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">Facing your fears with Virtual Reality</a>
+                            </h4>
+                            <p class="card-description">
+                                Fear isn’t always such a bad thing. It is, after all, a self-preservation response programmed into our DNA that can be useful in keeping us out of harm’s way.<a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html"> Read More </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card-blog">
+                        <div class="card-image">
+                            <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">
+                                <img class="img img-raised img-responsive" src="img/blog3.jpg" alt="img" />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h6 class="category text-danger">
+                                    Marketing
+                            </h6>
+                            <p> <i class="fa fa-clock-o"></i> 18 September 2016</p>
+                            <h4 class="card-title">
+                                <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">Teaching machines to predict the future</a>
+                            </h4>
+                            <p class="card-description">
+                                Our ability to anticipate actions is thanks to intuitions born out of a lifetime of experiences.<a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html"> Read More </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card-blog">
+                        <div class="card-image">
+                            <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">
+                                <img class="img img-raised img-responsive" src="img/blog1.jpg" alt="img" />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h6 class="category text-info">Technology</h6>
+                            <p> <i class="fa fa-clock-o"></i> 27 September 2016</p>
+                            <h4 class="card-title">
+                                    <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">Feds will formally recall Samsung Galaxy Note 7</a>
+                                </h4>
+                            <p class="card-description">
+                                Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company.<a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html"> Read More </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card-blog">
+                        <div class="card-image">
+                            <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">
+                                <img class="img img-raised img-responsive" src="img/blog2.jpg" alt="img" />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h6 class="category text-success">SEO</h6>
+                            <p> <i class="fa fa-clock-o"></i> 26 September 2016</p>
+                            <h4 class="card-title">
+                                    <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">5 SEO secrets you’ll be surprised you didn’t know​</a>
+                                </h4>
+                            <p class="card-description">
+                                Getting your site to rank in Google can be a tough slog. It requires knowledge of current ranking factors, as well as the time and ability to optimize<a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html"> Read More </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card-blog">
+                        <div class="card-image">
+                            <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">
+                                <img class="img img-raised img-responsive" src="img/blog3.jpg" alt="img" />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h6 class="category text-danger">Typhography</h6>
+                            <p> <i class="fa fa-clock-o"></i>15 September 2016</p>
+                            <h4 class="card-title">
+                                    <a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html">Styles come and go. Good design is a language, not a style.</a>
+                            </h4>
+                            <p class="card-description">
+                                Creativity is to discover a question that has never been asked. If one brings up an idiosyncratic question, the answer he gives will<a href="http://www.darcob.com/murtaxa/napier_demo/blog-single.html"> Read More </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+			</div> 
+		-->
+        </div>
+    </section>
+    <!-- End events section -->
+    
+	<!-- registration Section -->
+	<section id="registration">
+		<div class="container">
+			<div class="section-header">
+				<h2 style="color:blue">Register Now!<br></h2><br><br><br>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+                    <div class="card card-pricing">
+                    	<div class="square">
+                    		<img src="img/time-is-money.png" alt="">
+                    	</div>
+                        <div class="content">
+                            <div class="header header-primary text-center">
+                                <h3 class="widget-header-title">Event Registration</h3>
+                            </div>
+                            <!--<ul>
+                                <li><b>1</b> User</li>
+                                <li><i class="fa fa-times"> </i> Customer Support</li>
+                            </ul>
+                            <h1 class="card-title"><small>$</small>29<small>/mo</small></h1>-->
+                            <button class="ripple" type="button" onclick="location.href='eventRegistration.html'">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card card-pricing center">
+                    	<div class="square">
+                    		<img src="img/light-bulb.png" alt="">
+                    	</div>
+                        <div class="content">
+                            <div class="header header-primary text-center">
+                                <h3 class="widget-header-title">Startup Registration</h3>
+                            </div>
+                            <!--<ul>
+                                <li><b>50</b> User</li>
+                                <li><b>1000</b> Private Message</li>
+                                <li><i class="fa fa-times"> </i> Customer Support</li>
+                            </ul>
+                            <h1 class="card-title"><small>$</small>99<small>/mo</small></h1>-->
+                            <button class="ripple" type="button" onclick="location.href='startupRegistration.html'">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card card-pricing">
+                    	<div class="square">
+                    		<img src="img/coin.png" alt="">
+                    	</div>
+                        <div class="content">
+                            <div class="header header-primary text-center">
+                                <h3 class="widget-header-title">Enabler Registration</h3>
+                            </div>
+                            <!--<ul>
+                                <li><b>100</b> User</li>
+                                <li><i class="fa fa-times"> </i> Customer Support</li>
+                            </ul>
+                            <h1 class="card-title"><small>$</small>299<small>/mo</small></h1>-->
+                            <button class="ripple" type="button" onclick="location.href='enablerRegistration.html'">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</section>
+	<!-- Ended registration section -->
+    <!-- Subscribe section -->
+    <div id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 sub-left">
+                	<img src="img/graphic-design.png" alt="">
+                </div>
+                <div class="col-md-6 sub-right">
+                    <h3 class="title">Subscribe to our newsletter. Filled with info you can use!</h3>
+                    <form class="subscribe-form">
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Email Address" required id="n-email">
+							<span class="input-group-btn">
+								<button type="submit" class="ripple">
+									<i class="fa fa-envelope-o"></i>
+								</button>
+							</span>
+						</div>
+					</form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End subscribe section -->
+	<!-- Contact Section -->
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<!-- contact text -->
+				<div class="col-md-6 con-text">
+					<h2>Volunteer with Vizag Startups. Grow and help others grow!</h2>
+                    <p>We are always looking for learners and doers! Interested? Let's talk and join hands!</p>
+					<h4>Our Location</h4>
+					<p>Sunrise Startups Building, Hill No-3, IT Park, Madhurawada, Visakhapatnam, Andhra Pradesh.</p>
+					<h4>Contact Infromation</h4>
+					<p>Phone:+91 9876763456</p>
+					<p>Email:<a href="#">Volunteer@Vizagstartups.in</a></p>
+				</div>
+				<!-- Contact form -->
+				<div class="col-md-6 con-form">
+					<h2>Got a question? Suggestion? Info? Drop us a line anytime!</h2>
+					<p></p>
+					<div class="row">
+                        <div class="col-md-6">
+                             <div class="form-group label-floating contact-form">
+                                <label class="control-label">Subject*</label>
+                                 <select class="form-control" data-style="btn-primary" onchange='subject(this.value);' required>
+                                   
+                                  <option>Request for a venue</option>
+								  <option>Idea Validation</option>
+								  <option>Need a Co-Founder</option>
+                                  <option>Need a Mentor</option>
+                                  <option>Need an Investor</option>
+                                  <option value="others">Other</option>
+                                  
+                                   
+                                   </select>
+                                   <textarea rows="3" cols="26" name="color" id="sub" style='display:none;'></textarea>
+                            </div>
+                            <div class="form-group label-floating contact-form">
+                                <label class="control-label">Your Name*</label>
+                                <input type="email" class="form-control" required >
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group label-floating contact-form">
+                                <label class="control-label">Mobile*</label>
+                                <input type="email" class="form-control" required >
+                            </div>
+                            <div class="form-group label-floating contact-form">
+                                <label class="control-label">Email*</label>
+                                <input type="email" class="form-control" required >
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group label-floating contact-form">
+                                <label class="control-label">Message*</label>
+                                <textarea class="form-control" rows="5" required ></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+	                        <button  type="submit" class="ripple text-right">Send your message</button>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Ended Contact Section -->
+	<!-- Footer Section -->
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<!-- footer bout -->
+				<div class="col-md-5 f-about">
+					<a href="#">
+						<img src="img/logodr.png" class="responsive-img" alt="Vizag Startups logo">
+					</a>
+					<hr>
+					<p>Vizag Startups is focused on building the startup ecosystem in and around Vizag.</p>
+				</div>
+				<!-- Link -->
+				<div class="col-md-2 l-link">
+					<h4>Important Links</h4>
+					<ul>
+						<li>
+							<a href="#startups">Startups</a>
+						</li>
+						<li>
+							<a href="#enablers">Enablers</a>
+						</li>
+						<li>
+							<a href="#blog">Events</a>
+						</li>
+						<li>
+							<a href="#registration">Registration</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Social buttons -->
+				<div class="col-md-2 f-social">
+					<h4>Follow Us</h4>
+					<ul>
+						<li>
+							<a href="http://fb.com/vizagstartups.in" target="_blank">
+								<i class="fa fa-facebook"></i>
+								Facebook
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/vizagstartups" target="_blank">
+								<i class="fa fa-twitter"></i>
+								Twitter
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Newsletter -->
+				<!-- remove the below; it's redundant
+				<div class="col-md-3 sub">
+					<h4>Newsletter</h4>
+					<p>Our newsletter will reach your inbox only once in a month!<br> With only important updates.</p>
+					<!-- Newsletter Form Input 
+					<form class="newsletter-form">
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Email Address" required id="s-email">
+							<span class="input-group-btn">
+								<button type="submit" class="ripple">
+									<i class="fa fa-envelope-o"></i>
+								</button>
+							</span>
+						</div>
+					</form>
+					<p class="no-spam">* We will never spam! </p>
+				</div>  -->
+			</div>
+			<hr>
+			<p class="copyright"> Built with <i class="fa fa-heart"></i> by Vizag Startups Team</p>
+		</div>
+	</section>
+	<!-- Ended Footer Section -->
+	<!-- fixed icons start -->
+    <div class="fixed-icons">
+        <a href="http://fb.com/vizagstartups.in" target="_blank"><i class="fa fa-facebook fixed facebook"></i></a>
+        <a href="https://twitter.com/vizagstartups"  target="_blank"><i class="fa fa-twitter fixed twitter"></i></a>
+        <!--<a href="#" target="_blank"><i class="fa fa-google-plus fixed google-plus"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-linkedin fixed linkedin"></i></a>-->
+    </div>
+    <!-- fixed icons end -->
+	<!-- Scripts -->
+	<script src='js/jquery.min.js' ></script>
+    <script src='js/bootstrap.min.js' ></script>
+	<script src='js/owl.carousel.min.js' ></script>
+	<script src='js/smooth-scroll.min.js' ></script>
+	<script src='js/typed.min.js' ></script>
+	<script src='js/script.js' ></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+      var config = {
+        apiKey: "AIzaSyCrlbPv_wtUPhtcePh7J-Q3kL_6PHjSY8k",
+        authDomain: "vizagstartups-a2fac.firebaseapp.com",
+        databaseURL: "https://vizagstartups-a2fac.firebaseio.com",
+        projectId: "vizagstartups-a2fac",
+        
+      };
+      firebase.initializeApp(config);
+/*    var vsDatabase = firebase.database().ref();
+      vsDatabase.push({fieldname:'name',text:'rajasekhar'});
+        
+        if (!firebase.auth().currentUser) {
+        // [START createprovider]
+        var provider = new firebase.auth.GoogleAuthProvider();
+        // [END createprovider]
+        // [START addscopes]
+        provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+        // [END addscopes]
+        // [START signin]
+        firebase.auth().signInWithPopup(provider).then(function(result) {
+          // This gives you a Google Access Token. You can use it to access the Google API.
+          var token = result.credential.accessToken;
+          // The signed-in user info.
+          var user = result.user;
+          // [START_EXCLUDE]
+          document.getElementById('quickstart-oauthtoken').textContent = token;
+          // [END_EXCLUDE]
+        }).catch(function(error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          // The email of the user's account used.
+          var email = error.email;
+          // The firebase.auth.AuthCredential type that was used.
+          var credential = error.credential;
+          // [START_EXCLUDE]
+          if (errorCode === 'auth/account-exists-with-different-credential') {
+            alert('You have already signed up with a different auth provider for that email.');
+            // If you are using multiple auth providers on your app you should handle linking
+            // the user's accounts here.
+          } else {
+            console.error(error);
+          }
+          // [END_EXCLUDE]
+        });
+        // [END signin]
+      } else {
+        // [START signout]
+        firebase.auth().signOut();
+        // [END signout]
+      }
+    //storageBucket: "vizagstartups-a2fac.appspot.com",
+       // messagingSenderId: "90354150359"
+*/
+</script>
+</body>
+
+<!-- Vizag Startups -->
+</html>
