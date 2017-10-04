@@ -1,5 +1,5 @@
 $("#event-submit").click(function () {
-    firebase.database().ref('eventList1/').push({
+    firebase.database().ref('eventList/').push({
            evnt_name: $('#event-name').val(),
            evnt_type: $('#event-type').val(),
            evnt_location: $('#event-location').val(),

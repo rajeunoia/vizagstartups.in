@@ -1,6 +1,6 @@
 $("#register").click(function () {
     
-    firebase.database().ref('startupList1/').push({
+    firebase.database().ref('startupList/').push({
            startupname: $('#stname').val(),
            foundername: $('#fname').val(),
            teamsize: $('#size').val(),

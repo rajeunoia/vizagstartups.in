@@ -1,5 +1,5 @@
 $("#e-submit").click(function () {
-    firebase.database().ref('enablerList1/').push({
+    firebase.database().ref('enablerList/').push({
            ename: $('#ename').val(),
            emob: $('#emob').val(),
            eorgname: $('#eorgname').val(),
