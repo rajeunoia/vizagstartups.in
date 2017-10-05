@@ -20,9 +20,9 @@ function data(data)
         
         childs.children[2].innerHTML = cards[keys[div]].stdesc;
         
-        childs.children[4].innerHTML = cards[keys[div]].stdesc;
+       // childs.children[4].innerHTML = cards[keys[div]].stdesc;
         
-        childs.children[6].innerHTML = cards[keys[div]].stdesc;
+      //  childs.children[6].innerHTML = cards[keys[div]].stdesc;
         
         childs.children[7].innerHTML = cards[keys[div]].web;
     }

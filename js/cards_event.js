@@ -22,7 +22,7 @@ function data(data)
     
         childs.children[3].innerHTML = cards[keys[div]].evnt_location;
         
-        childs.children[4].href = cards[keys[div]].readmore;
+     //   childs.children[4].href = cards[keys[div]].readmore;
     }
 }
 

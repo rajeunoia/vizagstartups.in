@@ -18,11 +18,11 @@ function data(data)
         
         childs.children[2].innerHTML = cards[keys[div]].eabout;
         
-        childs.children[4].innerHTML = cards[keys[div]].ref;
+     //   childs.children[4].innerHTML = cards[keys[div]].ref;
         
-        childs.children[6].innerHTML = cards[keys[div]].footer1;
+    //    childs.children[6].innerHTML = cards[keys[div]].footer1;
         
-        childs.children[7].innerHTML = cards[keys[div]].footer2;
+    //    childs.children[7].innerHTML = cards[keys[div]].footer2;
     }
 }
 
