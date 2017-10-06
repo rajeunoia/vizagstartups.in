@@ -15,7 +15,8 @@ $("#register").click(function () {
            fb: $('#fb').val(),
            twitter: $('#twitter').val(),
            linkedin: $('#linkedin').val(),
-           extra: $('#extra').val()
+           extra: $('#extra').val(),
+           status: 'Requested'
            });
       }
     );

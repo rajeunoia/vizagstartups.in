@@ -9,7 +9,8 @@ $("#event-submit").click(function () {
            evnt_holder_email: $('#event-holder-adrs').val(),
            evnt_desc: $('#event-desc').val(),
            evnt_ticket: $('#event-ticket').val(),
-           evnt_contact: $('#event-contact').val()
+           evnt_contact: $('#event-contact').val(),
+           status: 'Requested'
            });
       }
     );
